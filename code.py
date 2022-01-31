@@ -11,7 +11,6 @@ def dir():
 
 
 def dict_way_size(way):
-    print('...Загрузка...')
     dict1 = {}
     for root, dirs, files in os.walk(way):
         for file in files:
